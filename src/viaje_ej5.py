@@ -1,0 +1,13 @@
+while True:
+    distancia_km =  int(input("Introduce la distancia:"))
+    velocidad_kmh = int(input("Introduce la velocidad:"))
+    tiempo_horas = distancia_km // velocidad_kmh
+    tiempo_dias = tiempo_horas // 24
+    print(f"Tardarías {tiempo_dias} días en llegar.")
+    response = input("¿Quieres realizar otra simulación?(s/n):")
+    if response == "n":
+        print("Gracias por usar esta calculadora")
+        break
+
+
+    
